@@ -1,0 +1,25 @@
+{
+  "name": "mern-todo-app",
+  "version": "1.0.0",
+  "description": "\"# ToDoApp\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samadhiprarthana/ToDoApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samadhiprarthana/ToDoApp/issues"
+  },
+  "homepage": "https://github.com/samadhiprarthana/ToDoApp#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
+  }
+}

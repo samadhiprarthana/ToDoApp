@@ -1,0 +1,87 @@
+/* Home Page Styling */
+.home {
+  background:#010c14 ;
+  color: white;
+  text-align: center;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1100px;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.hero-text {
+  max-width: 700px;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 4.3rem;
+  margin-bottom: 10px;
+}
+
+.hero-text span {
+  color: #61d8ff;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Call-To-Action Button */
+.cta-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid #61d8ff;
+  background-color: #0f2128;
+  color: #61d8ff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  border-color: #61d8ff;
+}
+
+.cta-btn:hover {
+  background-color: white;
+  color:#0f2128;
+}
+
+/* Hero Image */
+.hero-image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Media Links */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 22px;
+  margin: 0 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #61d8ff;
+}

@@ -1,0 +1,36 @@
+.footer {
+    background: #022936; 
+    color: #55c7f4;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .developer-name {
+    font-weight: bold;
+    color:white;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #ffdd57; /* Yellow hover effect */
+  }
+  
